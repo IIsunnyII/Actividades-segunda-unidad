@@ -1,0 +1,605 @@
+[
+    {
+        "id": 1,
+        "name": "Bulbasaur",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png",
+        "description": "Bulbasaur tiene una semilla en su espalda desde que nace. La semilla crece poco a poco a medida que Bulbasaur absorbe los rayos del sol."
+    },
+    {
+        "id": 2,
+        "name": "Ivysaur",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png",
+        "description": "Cuando la semilla de su espalda crece, Ivysaur adquiere una gran planta que utiliza para recolectar energía solar."
+    },
+    {
+        "id": 3,
+        "name": "Venusaur",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png",
+        "description": "La flor en la espalda de Venusaur se vuelve más vibrante y emite un aroma agradable al absorber los rayos del sol."
+    },
+    {
+        "id": 4,
+        "name": "Charmander",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png",
+        "description": "Charmander tiene una llama en la punta de su cola que indica su estado de salud. La llama arde más fuerte cuando está contento."
+    },
+    {
+        "id": 5,
+        "name": "Charmeleon",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/005.png",
+        "description": "Charmeleon emite calor desde la punta de su cola, que se intensifica cuando está enojado."
+    },
+    {
+        "id": 6,
+        "name": "Charizard",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+        "description": "Charizard vuela por el cielo en busca de oponentes fuertes, y su aliento puede derretir cualquier cosa."
+    },
+    {
+        "id": 7,
+        "name": "Squirtle",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png",
+        "description": "Squirtle se protege dentro de su caparazón mientras lanza agua a presión cuando se siente amenazado."
+    },
+    {
+        "id": 8,
+        "name": "Wartortle",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/008.png",
+        "description": "Las orejas y la cola de Wartortle lo ayudan a nadar rápidamente en el agua y equilibrarse en tierra."
+    },
+    {
+        "id": 9,
+        "name": "Blastoise",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png",
+        "description": "Blastoise utiliza los cañones en su espalda para lanzar potentes chorros de agua que pueden perforar el acero."
+    },
+    {
+        "id": 10,
+        "name": "Caterpie",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/010.png",
+        "description": "Caterpie puede enredar y devorar hojas con su poderoso mandí­bulo. Suele esconderse en hojas para evitar ser visto."
+    },
+    {
+        "id": 11,
+        "name": "Metapod",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/011.png",
+        "description": "Metapod se protege en su capullo mientras se transforma en un Butterfree. No puede moverse ni comer en este estado."
+    },
+    {
+        "id": 12,
+        "name": "Butterfree",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/012.png",
+        "description": "Butterfree se alimenta de néctar y polen de flores. Puede liberar un polvo que puede causar problemas respiratorios."
+    },
+    {
+        "id": 13,
+        "name": "Weedle",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/013.png",
+        "description": "Weedle utiliza su aguijón para inyectar veneno. Le gusta alimentarse de hojas en áreas cubiertas de vegetación."
+    },
+    {
+        "id": 14,
+        "name": "Kakuna",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/014.png",
+        "description": "Kakuna se encuentra en estado de metamorfosis. Se protege en un capullo y se convierte en un Beedrill."
+    },
+    {
+        "id": 15,
+        "name": "Beedrill",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/015.png",
+        "description": "Beedrill tiene tres aguijones, uno en su cabeza y dos en su abdomen. Es muy agresivo y protegerá su nido."
+    },
+    {
+        "id": 16,
+        "name": "Pidgey",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/016.png",
+        "description": "Pidgey se alimenta de semillas y es conocido por ser un Pokémon común. Puede volar rápido para escapar de depredadores."
+    },
+    {
+        "id": 17,
+        "name": "Pidgeotto",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/017.png",
+        "description": "Pidgeotto se convierte en un depredador poderoso al madurar. Puede atacar con rapidez y precisión."
+    },
+    {
+        "id": 18,
+        "name": "Pidgeot",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/018.png",
+        "description": "Pidgeot es conocido por su velocidad y habilidad para volar a gran altura. Su plumaje es hermoso."
+    },
+    {
+        "id": 19,
+        "name": "Rattata",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/019.png",
+        "description": "Rattata es muy ágil y tiene un sentido del olfato muy desarrollado. Es conocido por ser un Pokémon común."
+    },
+    {
+        "id": 20,
+        "name": "Raticate",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/020.png",
+        "description": "Raticate tiene colmillos afilados y es muy territorial. Ataca a cualquiera que invada su territorio."
+    },
+    {
+        "id": 21,
+        "name": "Spearow",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/021.png",
+        "description": "Spearow es conocido por su actitud agresiva y suele atacar a los intrusos. Sus gritos son ensordecedores."
+    },
+    {
+        "id": 22,
+        "name": "Fearow",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/022.png",
+        "description": "Fearow es un Pokémon de gran tamaño y velocidad. Es un gran depredador y puede ser muy peligroso."
+    },
+    {
+        "id": 23,
+        "name": "Ekans",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/023.png",
+        "description": "Ekans se enrosca y acecha a su presa. Su veneno puede debilitar a sus oponentes."
+    },
+    {
+        "id": 24,
+        "name": "Arbok",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/024.png",
+        "description": "Arbok tiene una gran capacidad para asustar a otros Pokémon. Su veneno es altamente tóxico."
+    },
+    {
+        "id": 25,
+        "name": "Pikachu",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png",
+        "description": "Pikachu es conocido por su habilidad para generar electricidad. Es un Pokémon muy popular y querido."
+    },
+    {
+        "id": 26,
+        "name": "Raichu",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/026.png",
+        "description": "Raichu puede acumular una gran cantidad de electricidad. Su cola actúa como un pararrayos."
+    },
+    {
+        "id": 27,
+        "name": "Sandshrew",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/027.png",
+        "description": "Sandshrew se entierra en la arena para protegerse. Su piel es resistente al daño."
+    },
+    {
+        "id": 28,
+        "name": "Sandslash",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/028.png",
+        "description": "Sandslash tiene espinas afiladas en su espalda que utiliza para defenderse. Es un excelente cazador nocturno."
+    },
+    {
+        "id": 29,
+        "name": "Nidoran♀",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/029.png",
+        "description": "Nidoran♀ es conocido por su habilidad para liberar veneno de su espina dorsal. Es un Pokémon muy cauteloso."
+    },
+    {
+        "id": 30,
+        "name": "Nidorina",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/030.png",
+        "description": "Nidorina es un Pokémon fuerte y puede usar su veneno en combate. Protege a su cría con ferocidad."
+    },
+    {
+        "id": 31,
+        "name": "Nidoqueen",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/031.png",
+        "description": "Nidoqueen es un Pokémon muy protector. Puede atacar con su cola y sus púas."
+    },
+    {
+        "id": 32,
+        "name": "Nidoran♂",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/032.png",
+        "description": "Nidoran♂ tiene un poderoso veneno que utiliza en combate. Es un Pokémon territorial."
+    },
+    {
+        "id": 33,
+        "name": "Nidorino",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/033.png",
+        "description": "Nidorino es conocido por su actitud desafiante y su habilidad para liberar veneno en combate."
+    },
+    {
+        "id": 34,
+        "name": "Nidoking",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/034.png",
+        "description": "Nidoking es un Pokémon fuerte que puede liberar veneno y es conocido por su gran fuerza física."
+    },
+    {
+        "id": 35,
+        "name": "Clefairy",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/035.png",
+        "description": "Clefairy es un Pokémon que disfruta de la luna y se dice que puede escuchar su música."
+    },
+    {
+        "id": 36,
+        "name": "Clefable",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/036.png",
+        "description": "Clefable es un Pokémon místico que puede volar y tiene una gran conexión con la luna."
+    },
+    {
+        "id": 37,
+        "name": "Vulpix",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/037.png",
+        "description": "Vulpix tiene seis colas que crecen a medida que se hace mayor. Puede lanzar llamas desde su boca."
+    },
+    {
+        "id": 38,
+        "name": "Ninetales",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/038.png",
+        "description": "Ninetales tiene una hermosa cola de nueve puntas. Se dice que puede vivir más de mil años."
+    },
+    {
+        "id": 39,
+        "name": "Jigglypuff",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/039.png",
+        "description": "Jigglypuff utiliza su canto para dormir a sus oponentes. Su voz es muy melodiosa."
+    },
+    {
+        "id": 40,
+        "name": "Wigglytuff",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/040.png",
+        "description": "Wigglytuff tiene un cuerpo suave y es conocido por su canto que puede hacer que todos se duerman."
+    },
+    {
+        "id": 41,
+        "name": "Zubat",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/041.png",
+        "description": "Zubat utiliza la ecolocalización para moverse en la oscuridad. Es un Pokémon que se encuentra en cuevas."
+    },
+    {
+        "id": 42,
+        "name": "Golbat",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/042.png",
+        "description": "Golbat tiene un gran deseo de chupar la sangre de otros Pokémon. Sus colmillos son afilados."
+    },
+    {
+        "id": 43,
+        "name": "Oddish",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/043.png",
+        "description": "Oddish se encuentra en lugares oscuros. Es conocido por su habilidad para liberar polen."
+    },
+    {
+        "id": 44,
+        "name": "Gloom",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/044.png",
+        "description": "Gloom tiene un olor muy fuerte que puede causar problemas a quienes se acercan. Se siente triste cuando está triste."
+    },
+    {
+        "id": 45,
+        "name": "Vileplume",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/045.png",
+        "description": "Vileplume tiene una gran flor que puede liberar polen. Su olor es muy fuerte y puede causar problemas respiratorios."
+    },
+    {
+        "id": 46,
+        "name": "Paras",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/046.png",
+        "description": "Paras tiene hongos que crecen en su espalda. Utiliza su habilidad para camuflarse en su entorno."
+    },
+    {
+        "id": 47,
+        "name": "Parasect",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/047.png",
+        "description": "Parasect tiene un hongo en su espalda que controla su mente. Es un Pokémon que se encuentra en lugares húmedos."
+    },
+    {
+        "id": 48,
+        "name": "Venonat",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/048.png",
+        "description": "Venonat tiene grandes ojos que le permiten ver en la oscuridad. Se alimenta de hojas y flores."
+    },
+    {
+        "id": 49,
+        "name": "Venomoth",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/049.png",
+        "description": "Venomoth puede liberar un polvo tóxico que causa problemas a quienes lo inhalan. Es un buen cazador de insectos."
+    },
+    {
+        "id": 50,
+        "name": "Diglett",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/050.png",
+        "description": "Diglett se entierra en la tierra para evitar ser visto. Es un Pokémon muy rápido y ágil."
+    },
+    {
+        "id": 51,
+        "name": "Dugtrio",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/051.png",
+        "description": "Dugtrio es un grupo de tres Diglett que se mueven juntos. Son extremadamente rápidos y pueden causar temblores."
+    },
+    {
+        "id": 52,
+        "name": "Meowth",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/052.png",
+        "description": "Meowth es conocido por su habilidad para caminar sobre dos patas. Puede hablar y es muy inteligente."
+    },
+    {
+        "id": 53,
+        "name": "Persian",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/053.png",
+        "description": "Persian es un Pokémon muy elegante y ágil. Puede correr a gran velocidad."
+    },
+    {
+        "id": 54,
+        "name": "Psyduck",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/054.png",
+        "description": "Psyduck sufre de fuertes dolores de cabeza que lo pueden llevar a usar sus habilidades psíquicas."
+    },
+    {
+        "id": 55,
+        "name": "Golduck",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/055.png",
+        "description": "Golduck es un experto nadador y puede liberar poderosas ondas de energía."
+    },
+    {
+        "id": 56,
+        "name": "Poliwag",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/056.png",
+        "description": "Poliwag tiene una cola en espiral que le ayuda a nadar. Su piel es muy sensible."
+    },
+    {
+        "id": 57,
+        "name": "Poliwhirl",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/057.png",
+        "description": "Poliwhirl tiene una gran habilidad para nadar y puede usar burbujas para atacar."
+    },
+    {
+        "id": 58,
+        "name": "Poliwrath",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/058.png",
+        "description": "Poliwrath es un Pokémon muy fuerte. Puede realizar potentes ataques de agua y es un experto nadador."
+    },
+    {
+        "id": 59,
+        "name": "Abra",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/059.png",
+        "description": "Abra es un Pokémon psíquico que puede teletransportarse mientras duerme. Es muy difícil de atrapar."
+    },
+    {
+        "id": 60,
+        "name": "Kadabra",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/060.png",
+        "description": "Kadabra puede utilizar poderes psíquicos para manipular objetos. Es muy inteligente."
+    },
+    {
+        "id": 61,
+        "name": "Alakazam",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/061.png",
+        "description": "Alakazam tiene un coeficiente intelectual muy alto y puede usar su gran mente para realizar ataques psíquicos."
+    },
+    {
+        "id": 62,
+        "name": "Machop",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/062.png",
+        "description": "Machop entrena para fortalecer su cuerpo. Es conocido por su gran fuerza física."
+    },
+    {
+        "id": 63,
+        "name": "Machoke",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/063.png",
+        "description": "Machoke es un Pokémon fuerte que participa en competiciones de lucha. Su fuerza es temida por muchos."
+    },
+    {
+        "id": 64,
+        "name": "Machamp",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/064.png",
+        "description": "Machamp tiene cuatro brazos que utiliza para luchar. Es considerado uno de los Pokémon más fuertes."
+    },
+    {
+        "id": 65,
+        "name": "Bellsprout",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/065.png",
+        "description": "Bellsprout se alimenta de luz solar y crece a medida que absorbe nutrientes del suelo."
+    },
+    {
+        "id": 66,
+        "name": "Weepinbell",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/066.png",
+        "description": "Weepinbell utiliza su bocanada para capturar presas. Su sabor es conocido por ser muy amargo."
+    },
+    {
+        "id": 67,
+        "name": "Victreebel",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/067.png",
+        "description": "Victreebel es un depredador y utiliza su apariencia atractiva para atraer a su presa."
+    },
+    {
+        "id": 68,
+        "name": "Tentacool",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/068.png",
+        "description": "Tentacool tiene tentáculos que pueden liberar un veneno potente. Es un Pokémon que se encuentra en el agua."
+    },
+    {
+        "id": 69,
+        "name": "Tentacruel",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/069.png",
+        "description": "Tentacruel es conocido por su gran tamaño y sus potentes tentáculos que pueden atrapar a su presa."
+    },
+    {
+        "id": 70,
+        "name": "Geodude",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/070.png",
+        "description": "Geodude tiene un cuerpo rocoso y es muy resistente. Le gusta vivir en lugares montañosos."
+    },
+    {
+        "id": 71,
+        "name": "Graveler",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/071.png",
+        "description": "Graveler es muy fuerte y puede rodar por el suelo a gran velocidad. Es conocido por su gran resistencia."
+    },
+    {
+        "id": 72,
+        "name": "Golem",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/072.png",
+        "description": "Golem es un Pokémon que se protege en su caparazón. Puede liberar una explosión poderosa al rodar."
+    },
+    {
+        "id": 73,
+        "name": "Ponyta",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/073.png",
+        "description": "Ponyta es un Pokémon rápido que puede correr a gran velocidad. Su fuego es caliente y brillante."
+    },
+    {
+        "id": 74,
+        "name": "Rapidash",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/074.png",
+        "description": "Rapidash es conocido por su velocidad y su hermosa melena en llamas. Es un Pokémon muy elegante."
+    },
+    {
+        "id": 75,
+        "name": "Slowpoke",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/075.png",
+        "description": "Slowpoke es un Pokémon relajado que a menudo se queda dormido. Puede usar su lengua como un anzuelo."
+    },
+    {
+        "id": 76,
+        "name": "Slowbro",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/076.png",
+        "description": "Slowbro es un Pokémon tranquilo y sereno que se convierte en un gran combatiente cuando es necesario."
+    },
+    {
+        "id": 77,
+        "name": "Magnemite",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/077.png",
+        "description": "Magnemite se puede ver flotando en el aire. Es conocido por su habilidad para atraer objetos metálicos."
+    },
+    {
+        "id": 78,
+        "name": "Magneton",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/078.png",
+        "description": "Magneton está compuesto por tres Magnemite y puede generar un campo magnético fuerte."
+    },
+    {
+        "id": 79,
+        "name": "Farfetch'd",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/079.png",
+        "description": "Farfetch'd es conocido por llevar un puerro. Puede ser muy hábil en la batalla."
+    },
+    {
+        "id": 80,
+        "name": "Doduo",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/080.png",
+        "description": "Doduo es un Pokémon que puede correr rápidamente gracias a sus dos cabezas. Puede volar por poco tiempo."
+    },
+    {
+        "id": 81,
+        "name": "Dodrio",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/081.png",
+        "description": "Dodrio es un Pokémon veloz que puede correr a gran velocidad. Sus cabezas pueden coordinarse bien durante el combate."
+    },
+    {
+        "id": 82,
+        "name": "Seel",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/082.png",
+        "description": "Seel se encuentra en el agua y es muy rápido nadando. Su piel es muy resbaladiza."
+    },
+    {
+        "id": 83,
+        "name": "Dewgong",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/083.png",
+        "description": "Dewgong tiene una piel gruesa y puede permanecer en el agua durante mucho tiempo."
+    },
+    {
+        "id": 84,
+        "name": "Grimer",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/084.png",
+        "description": "Grimer se encuentra en lugares sucios y puede causar problemas con su cuerpo pegajoso."
+    },
+    {
+        "id": 85,
+        "name": "Muk",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/085.png",
+        "description": "Muk es conocido por su olor repugnante y su capacidad para descomponer desechos. Puede causar problemas graves."
+    },
+    {
+        "id": 86,
+        "name": "Shellder",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/086.png",
+        "description": "Shellder se cierra rápidamente cuando se siente amenazado. Puede liberar un poderoso ataque."
+    },
+    {
+        "id": 87,
+        "name": "Cloyster",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/087.png",
+        "description": "Cloyster tiene una defensa impresionante gracias a su caparazón. Puede atacar con sus afiladas perlas."
+    },
+    {
+        "id": 88,
+        "name": "Gastly",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/088.png",
+        "description": "Gastly es un Pokémon fantasma que puede volar y desaparecer. Su cuerpo está formado por gas."
+    },
+    {
+        "id": 89,
+        "name": "Haunter",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/089.png",
+        "description": "Haunter puede atacar a sus oponentes con su gran poder fantasma. Es conocido por su naturaleza traviesa."
+    },
+    {
+        "id": 90,
+        "name": "Gengar",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/090.png",
+        "description": "Gengar es un Pokémon fantasma que puede volverse invisible. Es un gran engañador."
+    },
+    {
+        "id": 91,
+        "name": "Onix",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/091.png",
+        "description": "Onix tiene un cuerpo de roca y es muy resistente. Puede causar terremotos."
+    },
+    {
+        "id": 92,
+        "name": "Drowzee",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/092.png",
+        "description": "Drowzee puede inducir sueños a otros Pokémon. Es conocido por su forma de hipnotizar."
+    },
+    {
+        "id": 93,
+        "name": "Hypno",
+        "image": "https://assets.pokemon.com/assets/cemons/cms2/img/pokedex/full/093.png",
+        "description": "Hypno es un Pokémon que puede controlar los sueños. Usa su gran poder psíquico para ayudar a otros."
+    },
+    {
+        "id": 94,
+        "name": "Krabby",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/094.png",
+        "description": "Krabby se encuentra en la costa y es conocido por sus fuertes pinzas. Puede defenderse bien."
+    },
+    {
+        "id": 95,
+        "name": "Kingler",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/095.png",
+        "description": "Kingler es un Pokémon fuerte que puede utilizar sus pinzas para realizar ataques poderosos."
+    },
+    {
+        "id": 96,
+        "name": "Voltorb",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/096.png",
+        "description": "Voltorb se asemeja a una esfera y es conocido por su habilidad para generar electricidad."
+    },
+    {
+        "id": 97,
+        "name": "Electrode",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/097.png",
+        "description": "Electrode es un Pokémon veloz que puede liberar una explosión de electricidad."
+    },
+    {
+        "id": 98,
+        "name": "Exeggcute",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/098.png",
+        "description": "Exeggcute es un grupo de seis huevos que puede liberar poderes psíquicos."
+    },
+    {
+        "id": 99,
+        "name": "Exeggutor",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/099.png",
+        "description": "Exeggutor tiene tres cabezas y es conocido por su gran inteligencia. Puede liberar poderes psíquicos."
+    },
+    {
+        "id": 100,
+        "name": "Cubone",
+        "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/100.png",
+        "description": "Cubone es un Pokémon triste que lleva el cráneo de su madre como casco. Es un guerrero solitario."
+    }
+]
+
+
+
