@@ -91,7 +91,7 @@ const WeatherForecast: React.FC = () => {
         padding: '10px',
       }}
     >
-      <h2 style={{ color: '#4fc3f7' }}>Pronóstico del Clima en Estados de México</h2>
+      <h2 style={{ color: 'Black' }}>Pronóstico del Clima en Estados de México</h2>
       <div
         style={{
           display: 'flex',

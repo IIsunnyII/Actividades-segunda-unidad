@@ -149,12 +149,12 @@ const Dashboard = () => {
 
     if (!isLoggedIn) {
         return (
-            <div className="login-container">
-                <div className="login-box">
-                    <h2>Iniciar Sesión</h2>
+            <div className="login-container" style={{ backgroundColor: '#B0D4F1', padding: '50px 0' }}>
+                <div className="login-box" style={{ maxWidth: '400px', margin: 'auto', padding: '30px', backgroundColor: '#E4F1FB', borderRadius: '8px' }}>
+                    <h2 style={{ textAlign: 'center', color: '#1F456E' }}>Iniciar Sesión</h2>
                     <form onSubmit={handleLogin}>
                         <div className="mb-3">
-                            <label htmlFor="email" className="form-label">Correo Electrónico</label>
+                            <label htmlFor="email" className="form-label" style={{ color: '#1F456E' }}>Correo Electrónico</label>
                             <input
                                 type="email"
                                 className="form-control"
@@ -162,10 +162,14 @@ const Dashboard = () => {
                                 value={email}
                                 onChange={(e) => setEmail(e.target.value)}
                                 required
+                                style={{
+                                    borderColor: '#1F456E',
+                                    borderRadius: '4px',
+                                }}
                             />
                         </div>
                         <div className="mb-3">
-                            <label htmlFor="password" className="form-label">Contraseña</label>
+                            <label htmlFor="password" className="form-label" style={{ color: '#1F456E' }}>Contraseña</label>
                             <input
                                 type="password"
                                 className="form-control"
@@ -173,9 +177,13 @@ const Dashboard = () => {
                                 value={password}
                                 onChange={(e) => setPassword(e.target.value)}
                                 required
+                                style={{
+                                    borderColor: '#1F456E',
+                                    borderRadius: '4px',
+                                }}
                             />
                         </div>
-                        <button type="submit" className="btn btn-primary">Iniciar Sesión</button>
+                        <button type="submit" className="btn" style={{ backgroundColor: '#1F456E', color: 'white', width: '100%' }}>Iniciar Sesión</button>
                     </form>
                 </div>
             </div>
@@ -213,33 +221,11 @@ const Dashboard = () => {
             }}>
                 <div style={{ width: '300px', height: '300px' }}>
                     <h2>Producción de Lotes</h2>
-                    <Pie data={productionData} options={{
-                        responsive: true,
-                        plugins: {
-                            datalabels: {
-                                color: '#fff',
-                                formatter: (value, context) => {
-                                    const total = context.chart.data.datasets[context.datasetIndex].data.reduce((acc, val) => acc + val, 0);
-                                    return getPercentage(value, total);
-                                },
-                            },
-                        },
-                    }} />
+                    <Pie data={productionData} options={options} />
                 </div>
                 <div style={{ width: '300px', height: '300px' }}>
                     <h2>Ganancias por Ventas</h2>
-                    <Pie data={salesData} options={{
-                        responsive: true,
-                        plugins: {
-                            datalabels: {
-                                color: '#fff',
-                                formatter: (value, context) => {
-                                    const total = context.chart.data.datasets[context.datasetIndex].data.reduce((acc, val) => acc + val, 0);
-                                    return getPercentage(value, total);
-                                },
-                            },
-                        },
-                    }} />
+                    <Pie data={salesData} options={options} />
                 </div>
             </div>
         </div>
